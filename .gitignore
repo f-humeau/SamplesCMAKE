@@ -1,0 +1,27 @@
+# Lines that begin with '#' are comments.
+
+# Visual Studio
+.vs/
+.vscode/config.json
+
+##################
+# Project
+##################
+
+# Generated
+include/Generated/
+
+# Build results
+build/*
+
+########## GITIGNORE ##############
+
+# git diff temporary files
+*.orig
+
+# Backup files
+*~
+
+# anything user-specific (as opposed to repository-specific) should go
+# to .git/info/exclude instead of .gitignore. Also, .gitignore files
+# can be placed in sub-directories to avoid polluting the root one.
